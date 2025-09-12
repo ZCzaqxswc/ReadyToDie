@@ -7,5 +7,5 @@
 <img width="1008" height="477" alt="4" src="https://github.com/user-attachments/assets/8a77ff77-d352-4b2b-bd48-bd280d8e2b28" />
 
 
-# 현재 게정문제로 플레이스토어 게시중지
+# Stop publishing Play Store due to current issue
 <img width="906" height="600" alt="스크린샷 2025-09-11 045054" src="https://github.com/user-attachments/assets/637028fe-bd34-47b7-b461-f9624d48de52" />
