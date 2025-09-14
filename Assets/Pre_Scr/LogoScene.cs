@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class LogoScene : HSingleton<LogoScene>
+public class LogoScene : MonoBehaviour
 {   
     public Animator transition;
     void Start()

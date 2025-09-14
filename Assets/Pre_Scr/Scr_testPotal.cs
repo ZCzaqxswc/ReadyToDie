@@ -7,7 +7,6 @@ public class Scr_testPotal : MonoBehaviour
 {
     public GameObject Clear;
     public Animator transition;
-    HGSStateMng SM;
     Scr_GM GM;
     // Start is called before the first frame update
     void Start()

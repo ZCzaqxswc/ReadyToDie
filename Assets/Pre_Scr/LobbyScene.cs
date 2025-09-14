@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class LobbyScene : HSingleton<LobbyScene>
+public class LobbyScene : MonoBehaviour
 {   
     public GameObject[] StagePanel;
 

@@ -265,6 +265,10 @@ MonoBehaviour:
   Target: {fileID: 0}
   ObjTarget: {fileID: 0}
   Offset: {x: 0, y: 0}
+  XMin: 0
+  XMax: 0
+  YMin: 0
+  YMax: 0
 --- !u!1 &274050962
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +889,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -894,7 +898,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -903,7 +907,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -912,7 +916,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -922,8 +926,8 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 9a745c1b2d845e046baa825a4caa02ab, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 4
-    m_Data: {fileID: 21300000, guid: 9599d1ff237a2254fbae541744446c6d, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 4
     m_Data:
@@ -1050,7 +1054,7 @@ SpriteRenderer:
   m_Size: {x: 0.7, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &584946262
@@ -3582,7 +3586,7 @@ SpriteRenderer:
   m_Size: {x: 0.7, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1343404928
@@ -3882,6 +3886,9 @@ MonoBehaviour:
   Player: {fileID: 4770313548861678447, guid: e15352097cfc95c4584e460cebd7b2d4, type: 3}
   Life: 0
   LifeText: {fileID: 1343404930}
+  ReviveTimer: 0
+  EndButton: {fileID: 0}
+  EndButton1: {fileID: 0}
 --- !u!4 &1493216157
 Transform:
   m_ObjectHideFlags: 0
@@ -3933,6 +3940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d152dad459adbc9408cb9aebe1e483cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 0}
 --- !u!1 &1767488052
 GameObject:
   m_ObjectHideFlags: 0
@@ -4329,8 +4337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bc6e0c3e63c31d45ad5ae05f0401883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StageM: {fileID: 1127782894}
   Clear: {fileID: 1493216155}
+  transition: {fileID: 0}
 --- !u!212 &2025688258
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4378,7 +4386,7 @@ SpriteRenderer:
   m_Size: {x: 0.7, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2047920019
